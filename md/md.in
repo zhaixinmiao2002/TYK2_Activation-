@@ -1,0 +1,16 @@
+production
+ &cntrl
+    imin=0, ntx=5,
+    ntpr=100,ntwr=100,
+    ntwx=100,ntwe=100,
+    ntwv=100, ntwf=100
+    ntf=2, ntc=2,
+    ntb=2, ntp=1, barostat=1,tautp=10.0, taup=5.0,
+    nstlim=500000, t=0.0, dt=0.002,
+    tempi= 300.0, temp0=300.0,cut=9.0,
+    ntt=3, gamma_ln=5.0
+    irest=1,
+    iwrap=1,
+    ioutfm=1,
+    ig=-1,
+ &end
