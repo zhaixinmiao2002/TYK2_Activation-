@@ -1,0 +1,24 @@
+ligand: GROUP ATOMS=13660-17988
+anchor: GROUP ATOMS=1-13659
+
+ligand_center: CENTER ATOMS=ligand
+anchor_center: CENTER ATOMS=anchor
+
+distance: DISTANCE ATOMS=ligand_center,anchor_center
+
+MOVINGRESTRAINT ...
+    LABEL=smd
+    ARG=distance
+    STEP0=0
+    AT0=2.890      # ✅ 改为实际初始距离（0.880 nm）
+    KAPPA0=80    # ✅ 合理KAPPA（2000，典型SMD范围）
+    STEP1=150000   # ✅ 总步数10万步（0.2 ps/步 → 总时长20,000 ps=20 ns）
+    AT1=7.890      # ✅ 只拉2.0 nm（0.880→2.880 nm），速度慢
+    KAPPA1=80    # ✅ 前后KAPPA一致
+... MOVINGRESTRAINT
+
+PRINT ...
+    STRIDE=500    # 输出步长1000，数据更密
+    ARG=distance,smd.force2,smd.bias
+    FILE=atp_bound_80_5nm_2.force
+... PRINT
