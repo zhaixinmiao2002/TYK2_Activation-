@@ -1,0 +1,17 @@
+parm mmgbsa_new/complex.parm7
+trajin mmgbsa_new/08_tyk2_out_nobox_1_complex.dcd
+trajin mmgbsa_new/08_tyk2_out_nobox_2_complex.dcd
+trajin mmgbsa_new/08_tyk2_out_nobox_3_complex.dcd
+trajin mmgbsa_new/08_tyk2_out_nobox_4_complex.dcd
+trajin mmgbsa_new/08_tyk2_out_nobox_5_complex.dcd
+
+
+
+
+#multidihedral PhiPsi phi psi resrange 1-1141 out 08_all_phi_psi.dat
+multidihedral PhiPsi phi psi resrange 80-121 out 08_loop1_phi_psi.dat
+multidihedral PhiPsi phi psi resrange 531-560 out 08_loop2_phi_psi.dat
+multidihedral PhiPsi phi psi resrange 872-1141 out 08_jh1_phi_psi.dat
+
+run
+quit

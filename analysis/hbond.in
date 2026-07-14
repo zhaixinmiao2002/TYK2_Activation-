@@ -1,0 +1,114 @@
+parm  ../mmgbsa_new/complex.parm7
+trajin ../mmgbsa_new/08_tyk2_out_nobox_1_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_2_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_3_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_4_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_5_complex.dcd 300 500 1
+
+
+hbond donormask :1055@OH acceptormask :93@NH1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1055@OH acceptormask :93@NH2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1055@OH acceptormask :93@NE angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH1 acceptormask :1141@OXT angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH2 acceptormask :1141@OXT angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NE acceptormask :1141@OXT angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH1 acceptormask :1141@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH2 acceptormask :1141@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NE acceptormask :1141@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH1 acceptormask :1161@NH1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH2 acceptormask :1161@NH1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH1 acceptormask :1161@NH2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH2 acceptormask :1161@NH2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1010@NH1 acceptormask :542@N angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1010@NH2 acceptormask :542@N angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :544@N acceptormask :1009@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :553@NE2 acceptormask :968@ND1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :553@N acceptormask :968@ND1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :553@N acceptormask :968@NE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :964@OH acceptormask :553@NE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :964@OE2 acceptormask :553@NE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :930@OH acceptormask :348@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :612@N acceptormask :897@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :872@N acceptormask :869@N angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :872@N acceptormask :871@N angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :891@OH acceptormask :868@N angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :940@N acceptormask :865@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1010@NH1 acceptormask :357@OD1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1010@NH2 acceptormask :357@OD1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1010@NH1 acceptormask :357@OD2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1010@NH2 acceptormask :357@OD2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :703@NZ acceptormask :1009@OD1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :703@NZ acceptormask :1009@OD2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :351@N acceptormask :930@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1011@N acceptormask :544@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :968@NE2 acceptormask :553@OE1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :968@NE2 acceptormask :553@NE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :891@OH acceptormask :866@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :867@N acceptormask :940@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :898@N acceptormask :719@NH2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :898@OG acceptormask :719@NH1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :269@NH2 acceptormask :898@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :930@HD2 acceptormask :348@O angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :93@NH1 acceptormask :1028@OE1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :93@NH1 acceptormask :1028@OE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :93@NH2 acceptormask :1028@OE1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :93@NH2 acceptormask :1028@OE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :1055@OH acceptormask :93@NH2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :541@N acceptormask :932@OE2 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :541@N acceptormask :932@OE1 angle 135 dist 4.0  out nhb_O8.dat avgout avghb_08.dat
+hbond donormask :543@NH1 acceptormask :984@OE1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@NH1 acceptormask :984@OE2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@NH2 acceptormask :984@OE1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@NH2 acceptormask :984@OE2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@NZ acceptormask :984@OE1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@NZ acceptormask :984@OE2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :545@OG acceptormask :1010@NZ angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :351@N acceptormask :930@N angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :351@N acceptormask :930@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :930@N acceptormask :351@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :351@OH acceptormask :1010@NH1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :351@OH acceptormask :1010@NH2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :376@NZ acceptormask :1010@NH1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :376@NZ acceptormask :1010@NH2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :376@NZ acceptormask :938@NZ angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :376@NZ acceptormask :936@NZ angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :872@N acceptormask :869@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :871@OH acceptormask :893@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :891@OH acceptormask :868@N angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :719@NH1 acceptormask :898@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :719@NH2 acceptormask :869@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@N acceptormask :984@OE1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :543@N acceptormask :984@OE2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :356@NH2 acceptormask :1009@OD1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :356@NH1 acceptormask :1009@OD1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :356@NH2 acceptormask :1009@OD2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :356@NH1 acceptormask :1009@OD2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :540@NH2 acceptormask :932@OD angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :540@NH1 acceptormask :932@OD angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :936@NZ acceptormask :357@OD1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :936@NZ acceptormask :357@OD2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :93@NH1 acceptormask :1055@OH angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :93@NH2 acceptormask :1055@OH angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :608@NH2 acceptormask :875@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :608@NH1 acceptormask :875@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :872@N acceptormask :868@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat 
+hbond donormask :974@NE2 acceptormask :549@O angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :974@NE2 acceptormask :549@N angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :540@NH2 acceptormask :932@OE1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :540@NH1 acceptormask :932@OE1 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :540@NH2 acceptormask :932@OE2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+hbond donormask :540@NH1 acceptormask :932@OE2 angle 135 dist 4.0  out nhb_08.dat avgout avghb_08.dat
+
+
+
+
+hbond donormask :98@OH acceptormask :543@NH1 angle 135 dist 4.0  out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :98@OH acceptormask :543@NH2 angle 135 dist 4.0  out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :98@OH acceptormask :543@NE angle 135 dist 4.0  out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :539@N acceptormask :98@O angle 135 dist 4.0 out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :117@N acceptormask :1162@N angle 135 dist 4.0 out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :116@N acceptormask :757@O angle 135 dist 4.0 out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :116@N acceptormask :99@O angle 135 dist 4.0 out nhb_08_1.dat avgout avghb_08_1.dat
+hbond donormask :99@N acceptormask :116@O angle 135 dist 4.0 out nhb_08_1.dat avgout avghb_08_1.dat
+
+run

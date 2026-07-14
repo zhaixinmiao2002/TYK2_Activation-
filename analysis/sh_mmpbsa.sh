@@ -1,0 +1,1 @@
+MMPBSA.py -O -i mmpbsa.in -o 08_tyk2_out_nobox_3_complex_final.dat -do 08_tyk2_out_nobox_3_complex_decomp.dat -cp ../complex.parm7 -rp ../receptor.parm7 -lp ../ligand.parm7 -y ../08_tyk2_out_nobox_3_complex.dcd &

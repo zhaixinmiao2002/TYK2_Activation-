@@ -1,0 +1,14 @@
+parm  ../mmgbsa/complex.parm7
+trajin ../mmgbsa/08_tyk2_out_nobox_1_complex.dcd 300 500 1
+trajin ../mmgbsa/08_tyk2_out_nobox_2_complex.dcd 300 500 1
+trajin ../mmgbsa/08_tyk2_out_nobox_3_complex.dcd 300 500 1
+trajin ../mmgbsa/08_tyk2_out_nobox_4_complex.dcd 300 500 1
+trajin ../mmgbsa/08_tyk2_out_nobox_5_complex.dcd 300 500 1
+
+
+hbond donormask :1-871 acceptormask :872-1141 angle 135 dist 4.0 out nhb_08_part1.dat avgout avghb_08_part1.dat
+
+
+hbond donormask :872-1141 acceptormask :1-871 angle 135 dist 4.0 out nhb_08_part2.dat avgout avghb_08_part2.dat
+
+run

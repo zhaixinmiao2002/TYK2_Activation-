@@ -1,0 +1,72 @@
+parm  ../mmgbsa_new/complex.parm7
+trajin ../mmgbsa_new/08_tyk2_out_nobox_1_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_2_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_3_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_4_complex.dcd 300 500 1
+trajin ../mmgbsa_new/08_tyk2_out_nobox_5_complex.dcd 300 500 1
+
+reference ../mmgbsa_new/08_tyk2_out_nobox_1_complex.pdb
+center :1-1141 mass
+
+image center familiar
+rms reference @CA
+
+##rmsd
+#rms reference mass out 08_rmsd_ferm.dat :1-79,122-303,350-530@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_ferm.dat :80-121@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_ferm.dat :304-349@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_ferm.dat :531-560@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_ferm.dat :1-560@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_jh2.dat :561-583@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_jh2.dat :584-612@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_jh2.dat :613-848@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_jh2.dat :849-871@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_jh2.dat :561-871@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_jh1.dat :872-1141@CA,C,N time 0.002
+#rms reference mass out 08_rmsd_suf.dat :83-117,269-272,291-299,337-361,371-376,535-559,631-649,698-708,717-721,729-733,854-871@CA,C,N time 0.002
+#rms reference mass out 08_rmsd.dat :1-521@CA,C,N time 0.002
+#rms reference mass out 08_rmsd.dat :564-850@CA,C,N time 0.002
+#rms reference mass out 08_rmsd.dat :872-1141@CA,C,N time 0.002
+#rms reference mass out 08_rmsd.dat :1-1141@CA,C,N time 0.002
+#rms reference mass out 08_rmsd.dat :1-1178@CA,C,N time 0.002
+
+
+
+## rmsf
+#atomicfluct out 08_rmsf_short.dat :80-121@CA,C,N byres
+#atomicfluct out 08_rmsf_short.dat :304-349@CA,C,N byres
+#atomicfluct out 08_rmsf_short.dat :531-560@CA,C,N byres
+#atomicfluct out 08_rmsf_jh1.dat :872-878,917-946,966-1033,1121-1141@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :83-117@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :269-271@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :291-299@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :337-361@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :371-376@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :535-559@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :631-649@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :698-708@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :717-721@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :729-733@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :854-871@CA,C,N byres
+#atomicfluct out 08_rmsf.dat :1-1141@CA,C,N byres
+#atomicfluct out 07_rmsf.dat :1-1178@CA,C,N byres
+
+
+##rg
+#radgyr :83-117,300-361,535-565,820-870&!(@H=) out 08_rg_short.dat mass nomax
+#radgyr :83-117,269-272,291-299,337-361,371-376,535-559,631-649,698-708,717-721,729-733,854-871&!(@H=) out 08_rg.dat mass nomax
+#radgyr :872-1141&!(@H=) out 08_rg.dat mass nomax
+#radgyr :1-1141&!(@H=) out 08_rg.dat mass nomax
+#radgyr :1-1178&!(@H=) out 08_rg.dat mass nomax
+radgyr :35-47,85-100,116-124,147-171,185-241,429-436,449-481,492-495,512-516&!(@H=) out 08_rg_apo_free_box.dat mass nomax
+
+
+##
+#surf :83-117,300-361,535-565,820-870&!(@H=) out 08_sasa_short.dat
+#surf :83-117,269-272,291-299,337-361,371-376,535-559,631-649,698-708,717-721,729-733,854-871&!(@H=) out 08_sasa.dat
+#surf :1-289&!(@H=) out 01_surf.dat 
+#surf :290-454&!(@H=) out 01_surf.dat 
+#surf :1-454&!(@H=) out 01_surf.dat 
+surf :35-47,85-100,116-124,147-171,185-241,429-436,449-481,492-495,512-516&!(@H=) out 08_sasa_apo_free_box.dat
+
+
